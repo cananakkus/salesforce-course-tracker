@@ -24,13 +24,11 @@ The app uses 4 sample courses and 3 sample employees. Each employee is enrolled 
 
 ## 📸 Screenshots
 
-### 🔹 Lightning App Page
-![App Page](https://github.com/user-attachments/assets/5d466de2-1529-4748-ba4d-e4b794f44d10)
+![Ekran görüntüsü 2025-05-31 193210](https://github.com/user-attachments/assets/586f51d6-d27e-46c7-8ef5-81b60cc4cfc6)
+![Ekran görüntüsü 2025-05-31 193200](https://github.com/user-attachments/assets/e94815c7-dd3c-4c09-a307-624d9eb6a12d)
+![Ekran görüntüsü 2025-05-31 193118](https://github.com/user-attachments/assets/c177baf5-4350-486d-8372-1b82d63fd19b)
+![Ekran görüntüsü 2025-05-31 193223](https://github.com/user-attachments/assets/47b7cd5f-1641-4b4d-8155-8784486a58bc)
 
-
-### 🔹 Completion Tracker Component
-![Completion Tracker]([screenshots/completion_tracker.png](https://github.com/user-attachments/assets/2e7d1c95-3913-4cf3-8f0e-8b2ffed8f53e))
-![Ekran görüntüsü 2025-05-31 193223](https://github.com/user-attachments/assets/74ae2f74-e625-4fd6-8d74-07c7d3e8d4bb)
 
 ## 🚀 How to Deploy
 
