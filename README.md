@@ -27,8 +27,6 @@ The app uses 4 sample courses and 3 sample employees. Each employee is enrolled 
 ### 🔹 Lightning App Page
 ![App Page](https://github.com/user-attachments/assets/5d466de2-1529-4748-ba4d-e4b794f44d10)
 
-### 🔹 Course List Component
-![Course List]([screenshots/course_list.png](https://github.com/user-attachments/assets/da71cc4b-a693-47b7-bf0e-0f10ff046f2c))
 
 ### 🔹 Completion Tracker Component
 ![Completion Tracker]([screenshots/completion_tracker.png](https://github.com/user-attachments/assets/2e7d1c95-3913-4cf3-8f0e-8b2ffed8f53e))
