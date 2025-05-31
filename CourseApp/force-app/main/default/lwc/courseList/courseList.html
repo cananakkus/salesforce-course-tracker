@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Kurs Listesi">
+        <template if:true={courses}>
+            <template for:each={courses} for:item="course">
+                <div key={course.Id} class="slds-box slds-m-around_small">
+                    <h2 class="slds-text-heading_small">{course.Name}</h2>
+                    <p>{course.Description__c}</p>
+                    <p><strong>Süre:</strong> {course.Duration__c}</p>
+
+                    <template if:true={course.Enrollments__r}>
+                        <h3 class="slds-text-title_bold slds-m-top_small">Kayıtlı Çalışanlar</h3>
+                        <ul class="slds-list_dotted">
+                            <template for:each={course.Enrollments__r} for:item="enroll">
+                                <li key={enroll.Id}>
+                                    {enroll.Employee__r.Name} - % {enroll.Progress__c}
+                                    <template if:true={enroll.Completed__c}>
+                                        ✅
+                                    </template>
+                                </li>
+                            </template>
+                        </ul>
+                    </template>
+                </div>
+            </template>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>
